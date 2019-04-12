@@ -1,4 +1,6 @@
-var rellax = new Rellax('.icecream', {
+var rellaxs = require('rellax');
+
+var rellax = new rellaxs('.icecream', {
   speed: -2,
   center: true,
   wrapper: null,
